@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-stile: Roboto-Regular;
+}
+body{
+    font-family: Roboto;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+header h1{
+    height: 70px;
+    width: 70px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 100px ;
+    text-indent: -700px;
+    float: left;
+    
+    
+}
+header h1 a{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin-right: 100px;
+    padding: 5px 10px;
+    
+}
+nav{
+    margin-left: 270px;
+    margin-top: 26px;
+}
+nav ul li{
+    float: left;
+    color: #ffffff;
+
+}
+ul li a{
+    float: left;
+    padding: 5px 10px;
+    color: #ffffff;
+
+}
+body{
+    width: 100%;
+}
+main{
+    position: relative;
+
+}
+
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 214px;
+    right: 0;
+}
+.fb, .insta{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.social .fb a img, .social  .insta a img{
+    width: 100%;
+    
+}
+.Playlisti{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.Latest, .today{
+    font-size: 24px;
+    margin-top: 144px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    clear: both;
+}
+.hits{
+    float: left;
+    width: 33.33%;
+}
+article{
+    margin-left: 110px;
+
+    height: 244px;
+    width: 300px;
+    border: 2px solid #000000;
+    position: relative;
+    
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+.sound{
+    
+    margin-left: 10px;
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 22px;
+
+    
+}
+.text1{
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    font-weight: 400;
+
+}
+.text2{
+    font-size: 14px;
+    margin-left: 12px;
+
+}
+.go{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+  
+}
+.go a{
+
+    color: #000000;
+ 
+}
+footer{
+    background-color: #000000;
+    height: 354px;
+    width: 100%;
+    clear: both;
+}
+footer h2{
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 670px;
+    text-indent: -7000px;
+    float: left; 
+    margin-top: 28px;
+}
+footer h2 a{
+    height: 150px;
+    width: 150px;
+    display: block;
+    padding: 5px 10px;
+}
+footer .pe, footer p{
+    font-size: 18px;
+    font-family: Roboto;
+    clear: both;
+    padding: 26px;
+    
+    
+}
+footer ul li a{
+    clear: both;
+    padding: 5px 10px;
+    margin-left: 660px;
+    
+
+    
+}
+footer p, footer .pe{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 26px;
+}
+
+/*................playlists styles..............*/
+
+.song{
+    margin-left: 110px;
+    width: 25%;
+    margin-bottom: 46px;
+    float: left;  
+    margin-top: 94px;
+
+}
+  
+.musicpoto{
+    width: 260px;
+    height: 64px;
+    /* width: 20%;
+    height: 100%; */
+    float: left;
+    clear: both;
+    margin-left: 590px;
+}
+.musicpoto img{
+    width: 20%;
+}
+.song22{
+    clear: both;
+    margin-left: 100px;
+    display: block;
+    margin-left: 110px;
+
+}
+.song2{
+   
+    width: 25%;
+    margin-bottom: 46px;
+    float: left;
+    
+}
